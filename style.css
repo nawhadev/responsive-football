@@ -1,0 +1,195 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+.white-color {
+    color: white;
+}
+
+.top-section, .top-section .container {
+    background: #2D25A0 !important;
+}
+
+.container {
+    width: 1320px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.leading-block {
+    width: 100%;
+
+}
+
+.anchor-button {
+    text-decoration: none;
+    background-color: purple;
+    padding: 10px 40px;
+    color: white;
+}
+
+.anchor-button .material-icons {
+    top: 7px;
+    position: relative;
+}
+
+
+.right-side {
+    display: inline-block;
+    width: 50%;
+    padding-top: 20px;
+}
+
+.left-side {
+    display: inline-block;
+    float: left;
+    width: 50%;
+
+}
+
+.card-row {
+    text-align: center;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 5px;
+}
+
+.player-section {
+    padding-top: 40px;
+    background: #EFEFEF;
+    padding-bottom: 40px;
+}   
+
+.card-row {
+    text-align: center;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 5px;
+}
+
+.break {
+    clear: both;
+    margin: 40px;
+}
+
+.player-card {
+    width: 300px;
+    display: inline-block;
+    background: white;
+    text-align: left;
+    border-radius: 10px;
+    padding: 10px;
+    clear: both;
+    position: relative;
+}
+
+.middle-card {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card-image img {
+    width: 300px;
+    height: 256px;
+    margin: 0 auto;
+}
+
+.card-title {
+    font-size: 26px;
+}
+
+.card-content {
+    color: #6C6C6C;
+    height: 100px;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.card-content p {
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.leading-header {
+font-size: 40px;
+}
+
+/* footer  */
+.footer-img {
+
+    margin-left: 50px;
+    margin-right: 50px;
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+
+
+}
+
+.icon-name {
+    text-align: center;
+}
+
+.icon-name span {
+    padding: 5px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+
+
+footer {
+    text-align: center;
+}
+
+
+/* Mobile Devices  */
+@media only screen and (max-width: 688px) {
+     .right-side, .left-side {
+        width: 100%;
+    }
+
+    .top-section .container {
+        margin: 0 auto;
+    }
+
+}
+
+
+
